@@ -10,6 +10,12 @@
 | Public leaderboard (last scored version) | 0.9882 |
 | Candidate-set ceiling (perfect matcher on our blocking) | 0.9959 |
 
+<p align="center">
+  <img src="leaderboard_rank200.png" alt="Leaderboard — Team Heksync, Rank 200, overall score 0.988459" width="800">
+  <br>
+  <em>Leaderboard: Team Heksync — Rank 200, overall score 0.988459 (Unstop 72-hour ML Challenge).</em>
+</p>
+
 We evaluate macro-F0.5 over **every** Source-1 entity (including singletons and entities with
 no candidates), using 4-fold cross-validation grouped by S1 entity. All label-derived
 resources (alias tables, token log-odds) are learned fold-aware, so no validation pair ever
