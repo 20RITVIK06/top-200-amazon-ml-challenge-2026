@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Large intermediate artefacts (pipeline work dirs)
+work/
+*.parquet
+*.npy
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Agent harness artifacts
+.loopcode/
